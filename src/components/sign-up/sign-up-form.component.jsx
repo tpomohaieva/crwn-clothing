@@ -85,7 +85,7 @@ const SignUpForm = () => {
         {formInputs.map(({ label, type, name, value }) => {
           return (
             <FormInput
-              key={value}
+              key={label}
               label={label}
               type={type}
               required
